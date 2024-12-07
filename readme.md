@@ -1,6 +1,6 @@
-# Repo for holding solutions to problems solved in cracking the coding interview
+# Solutions to problems solved in `Cracking the coding interview` 📚
 
-## How to run 
+## How to run 📖
 Make sure Python is installed
 
 `python <name_of_file>.py`
