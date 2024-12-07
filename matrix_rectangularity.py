@@ -1,3 +1,5 @@
+# Checks if a matrix is rectangular or not
+
 def is_rectangular(matrix):
   if not matrix:
     return True # An empty matrix is considered rectangular

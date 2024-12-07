@@ -1,3 +1,7 @@
+# Zero Matrix: 
+# Write an algorithm such that if an element in an MxN matrix is 0, 
+# its entire row and column are set to 0.
+
 def zero_matrix(matrix):
   if not matrix or not matrix[0]:
     return # Edge case: empty matrix
