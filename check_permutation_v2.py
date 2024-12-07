@@ -1,3 +1,6 @@
+# Check Permutation: 
+# Given two strings, write a method to decide if one is a permutation of the other.
+
 def checkPermutation(string, string2):
   permutation = "Is a permutation"
   notPermutation = "Is not a permutation"
