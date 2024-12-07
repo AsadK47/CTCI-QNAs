@@ -23,4 +23,4 @@ def checkPermutation(string, string2):
   
   print(permutation)
 
-checkPermutation("Blash", "Blah")
+checkPermutation("Permutation", "MutationPer")
