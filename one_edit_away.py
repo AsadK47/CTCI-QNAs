@@ -9,23 +9,23 @@
 # pale, bale ›- true
 # pale, bake →› false
 
-def one_edit_away(string1: str, string2: str) -> bool:
-  if abs(len(string1) - len(string2)) > 1:
+def one_edit_away(s1: str, s2: str) -> bool:
+  if abs(len(s1) - len(s2)) > 1:
     return False
   
-  if len(string1) > len(string2):
-    string1, string2 = string2, string1
+  if len(s1) > len(s2):
+    s1, s2 = s2, s1
   
   i, j = 0, 0
   found_difference = False
 
-  while i < len(string1) and j < len(string2):
-    if string1[i] != string2[j]:
+  while i < len(s1) and j < len(s2):
+    if s1[i] != s2[j]:
       if found_difference:
         return False
       found_difference = True
 
-      if len(string1) == len(string2):
+      if len(s1) == len(s2):
         i += 1
     else:
       i += 1
